@@ -1,2 +1,2 @@
 # CameraXDemo
-    Jetpack Camera使用示例
+    Jetpack CameraX使用示例
