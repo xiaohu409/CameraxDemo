@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
             permissionUtil.addPermission(Manifest.permission.CAMERA);
+            permissionUtil.addPermission(Manifest.permission.ACCESS_FINE_LOCATION);
+            //permissionUtil.removePermission(Manifest.permission.CAMERA);
             permissionUtil.requestPermission(PermissionUtil.RequestCode.CameraCode);
         }
         else {
